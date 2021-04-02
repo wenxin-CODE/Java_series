@@ -14,7 +14,7 @@ public class GetServlet extends HttpServlet {
         //强转型
         String username = (String) servletContext.getAttribute("username");
 
-        //读取中文字符
+       //中文输出
         resp.setContentType("text/html");
         resp.setCharacterEncoding("utf-8");
         resp.getWriter().print("名字: "+username);

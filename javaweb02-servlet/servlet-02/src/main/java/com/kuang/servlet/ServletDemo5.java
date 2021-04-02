@@ -12,10 +12,10 @@ import java.util.Properties;
 public class ServletDemo5 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //è·å–æ–‡ä»¶èµ„æºè½¬ä¸ºæµ
+        //»ñÈ¡ÎÄ¼ş×ÊÔ´×ªÎªÁ÷
         InputStream is = this.getServletContext().getResourceAsStream("/WEB-INF/classes/db.properties");
 
-        //ç”¨æ¥åœ¨ä¸€ä¸ªæ–‡ä»¶ä¸­å­˜å‚¨é”®-å€¼å¯¹
+        //ÓÃÀ´ÔÚÒ»¸öÎÄ¼şÖĞ´æ´¢¼ü-Öµ¶Ô
         Properties prop = new Properties();
         prop.load(is);
         String user = prop.getProperty("username");
