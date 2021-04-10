@@ -5,7 +5,7 @@ import java.util.Map;
 //将 answers 中值相同的元素分为一组，对于每一组，计算出兔子的最少数量，然后将所有组的计算结果累加，就是最终的答案
 //https://leetcode-cn.com/problems/rabbits-in-forest/solution/sen-lin-zhong-de-tu-zi-by-leetcode-solut-kvla/
 
-class Three {
+class Demo3 {
 
     public static void main(String[] args) {
         int[] a = {10,10,10};
