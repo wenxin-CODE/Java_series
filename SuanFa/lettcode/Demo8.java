@@ -7,12 +7,12 @@ public class Demo8 {
     public static void main(String[] args) {
         int[][] mat = {{1,2,3,10,11},{4,5,6,12,13},{7,8,9,14,15}};
         int k = 68;
-        Solution ss = new Solution();
+        Solution8 ss = new Solution8();
         System.out.println(ss.maxSumSubmatrix(mat,k));
     }
 }
 
-class Solution {
+class Solution8 {
     public int maxSumSubmatrix(int[][] matrix, int k) {
         int ans = Integer.MIN_VALUE;
         int m = matrix.length, n = matrix[0].length;
