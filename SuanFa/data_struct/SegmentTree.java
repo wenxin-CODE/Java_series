@@ -1,5 +1,8 @@
 package data_struct;
 
+//根节点表示整个数组的和
+//下面每一层的左右节点平分父节点所包含元素个数，计算和
+
 public class SegmentTree {
     Node root;
     public SegmentTree(int left,int right){
